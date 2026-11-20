@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Editor de contenido · ISAENMISA</title>
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/marca/favicon-32.png">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+  <header class="barra">
+    <a class="barra__marca" href="index.html" title="Ver la web publicada"><img src="assets/marca/logo-isa-estrella-360.png" alt="" width="40" height="40"><span>Editor de contenido</span></a>
+    <p class="barra__estado" id="estado" role="status" aria-live="polite">Cargando…</p>
+    <div class="barra__acciones">
+      <button type="button" class="btn" id="btn-vista">Vista previa ↗</button>
+      <button type="button" class="btn btn--azul" id="btn-publicar">Exportar cambios</button>
+    </div>
+  </header>
+  <div class="marco">
+    <nav class="pestanas" aria-label="Secciones del editor" id="pestanas"></nav>
+    <main class="panel" id="panel" tabindex="-1"></main>
+  </div>
+  <div class="aviso" id="aviso" role="status" aria-live="polite"></div>
+  <script src="contenido/contenido.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

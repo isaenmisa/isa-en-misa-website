@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Isa Cuadros · @isaenmisa — Realización, fotografía y experimentación visual</title>
+  <meta name="description" content="Archivo visual de Isa Cuadros (@isaenmisa), creadora audiovisual en Granada: realización, fotografía, edición y experimentación visual.">
+  <meta name="theme-color" content="#0047AB">
+  <link rel="canonical" href="https://isaenmisa.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="ISAENMISA">
+  <meta property="og:title" content="Isa Cuadros · @isaenmisa">
+  <meta property="og:description" content="Realización, fotografía, edición y experimentación visual. Granada.">
+  <meta property="og:image" content="https://isaenmisa.com/assets/marca/og-imagen.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/marca/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/marca/favicon-192.png">
+  <link rel="apple-touch-icon" href="assets/marca/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preload" href="assets/fuentes/anton.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Isa Cuadros","alternateName":"@isaenmisa","jobTitle":"Creadora audiovisual","email":"mailto:hola@isaenmisa.com","telephone":"+34722190020","address":{"@type":"PostalAddress","addressLocality":"Granada","addressCountry":"ES"},"sameAs":["https://www.instagram.com/isaenmisa/"],"url":"https://isaenmisa.com/"}
+  </script>
+</head>
+<body>
+  <a class="saltar" href="#principal">Saltar al contenido</a>
+
+  <header class="cabecera" id="cabecera">
+    <a class="cabecera__marca" href="#/" aria-label="ISAENMISA — ir a la portada">
+      <span class="marca-texto" aria-hidden="true"></span>
+    </a>
+    <p class="cabecera__meta mono" aria-hidden="true">Archivo audiovisual · Nº <span data-num-seccion>001</span></p>
+    <nav class="nav" aria-label="Principal">
+      <button class="nav__boton" type="button" aria-expanded="false" aria-controls="nav-lista">
+        <span class="nav__boton-texto">Menú</span><span class="nav__hamb" aria-hidden="true"></span>
+      </button>
+      <ol class="nav__lista" id="nav-lista">
+        <li><a href="#/" data-ruta="inicio"><span class="mono">001</span> Inicio</a></li>
+        <li><a href="#/sobre-mi" data-ruta="sobre-mi"><span class="mono">002</span> Sobre mí</a></li>
+        <li><a href="#/archivo" data-ruta="archivo"><span class="mono">003</span> Archivo</a></li>
+        <li><a href="#/contacto" data-ruta="contacto"><span class="mono">004</span> Contacto</a></li>
+      </ol>
+    </nav>
+  </header>
+
+  <main id="principal" tabindex="-1">
+    <noscript>
+      <section class="noscript">
+        <h1>Isa Cuadros · @isaenmisa</h1>
+        <p>Creadora audiovisual: realización, fotografía, edición y experimentación visual. Granada, España.</p>
+        <p>Para ver el archivo visual activa JavaScript. Contacto: <a href="mailto:hola@isaenmisa.com">hola@isaenmisa.com</a> · <a href="tel:+34722190020">+34 722 190 020</a> · <a href="https://www.instagram.com/isaenmisa/">@isaenmisa</a></p>
+      </section>
+    </noscript>
+  </main>
+
+  <footer class="pie" id="pie"></footer>
+
+  <div class="visor" id="visor" role="dialog" aria-modal="true" aria-label="Visor de imágenes" hidden>
+    <button class="visor__cerrar" type="button" aria-label="Cerrar visor">Cerrar ✕</button>
+    <button class="visor__nav visor__nav--ant" type="button" aria-label="Imagen anterior">←</button>
+    <figure class="visor__figura"><div class="visor__media"></div><figcaption class="visor__pie mono"></figcaption></figure>
+    <button class="visor__nav visor__nav--sig" type="button" aria-label="Imagen siguiente">→</button>
+  </div>
+
+  <div class="aviso" id="aviso" role="status" aria-live="polite"></div>
+
+  <script src="contenido/contenido.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
