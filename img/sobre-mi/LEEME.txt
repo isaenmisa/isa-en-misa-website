@@ -1,0 +1,1 @@
+Aquí van las fotos de esta sección. El editor (admin.html) las guarda aquí automáticamente al exportar.
